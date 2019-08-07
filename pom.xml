@@ -11,6 +11,7 @@
     <modules>
         <module>shengsiyuan-jvm</module>
         <module>design-pattern</module>
+        <module>data-structure-and-algorithm</module>
     </modules>
 
     <name>java-learning</name>

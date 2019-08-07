@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="data-structure-and-algorithm" />
         <module name="shengsiyuan-jvm" />
         <module name="design-pattern" />
       </profile>

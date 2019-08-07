@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a5d6825-7a2d-461e-ba13-58ad01936fdc" name="Default Changelist" comment="" />
+    <list default="true" id="0a5d6825-7a2d-461e-ba13-58ad01936fdc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data-structure-and-algorithm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-and-algorithm/src/main/java/com/westboy/linkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-and-algorithm/src/main/java/com/westboy/linkedlist/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest25.java" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest27.java" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyCat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MySample.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MySample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest14.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest15.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest16.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest17.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest17_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest17_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest18.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest18_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest18_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest19.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest20.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest21.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest22.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest23.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest24.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest25.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest26.class" beforeDir="false" afterPath="$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest26.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/shengsiyuan-jvm/target/" />
     <ignored path="$PROJECT_DIR$/design-pattern/target/" />
+    <ignored path="$PROJECT_DIR$/data-structure-and-algorithm/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,110 +48,99 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Observable.java">
+        <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest27.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+            <state relative-caret-position="144">
+              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
               <folding>
-                <element signature="e#2047#2048#0" expanded="true" />
-                <element signature="e#2083#2084#0" expanded="true" />
-                <element signature="e#2952#2953#0" expanded="true" />
-                <element signature="e#2988#2989#0" expanded="true" />
-                <element signature="e#3747#3748#0" expanded="true" />
-                <element signature="e#3784#3785#0" expanded="true" />
-                <element signature="e#5696#5697#0" expanded="true" />
-                <element signature="e#5735#5736#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Observer.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/Driver.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            <state relative-caret-position="216">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/practice/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="72">
-                <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/sql/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="659" column="23" lean-forward="true" selection-start-line="659" selection-start-column="23" selection-end-line="659" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/theoretics/Subject.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/security/PrivilegedAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="324">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="613" column="17" selection-start-line="613" selection-start-column="17" selection-end-line="613" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structure-and-algorithm/src/main/java/com/westboy/linkedlist/Test01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="115" column="5" lean-forward="true" selection-start-line="67" selection-end-line="115" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/META-INF/services/java.sql.Driver">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/fabric/jdbc/FabricMySQLDriver.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="62" column="12" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structure-and-algorithm/src/main/java/com/westboy/linkedlist/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/theoretics/Observer.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/theoretics/ConcreteSubject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/theoretics/ConcreteObserver1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/theoretics/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/practice/example02/RingEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-pattern/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="290">
+              <caret line="263" column="17" lean-forward="true" selection-start-line="263" selection-start-column="17" selection-end-line="263" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -142,6 +161,8 @@
       <find>SystemClassLoaderAction</find>
       <find>setContextClassLoader</find>
       <find>type</find>
+      <find>com.westboy</find>
+      <find>registeredDrivers</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,9 +175,7 @@
         <option value="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MySample.java" />
         <option value="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest23.java" />
         <option value="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest24.java" />
-        <option value="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest25.java" />
         <option value="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest26.java" />
-        <option value="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest27.java" />
         <option value="$PROJECT_DIR$/shengsiyuan-jvm/pom.xml" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/ContreteSubject.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/Observer.java" />
@@ -183,6 +202,14 @@
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/practice/example02/BellEventSource.java" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/practice/README.md" />
         <option value="$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/theoretics/Subject.java" />
+        <option value="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest25.java" />
+        <option value="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/Cat.java" />
+        <option value="$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest27.java" />
+        <option value="$PROJECT_DIR$/data-structure-and-algorithm/src/main/java/com/westboy/App.java" />
+        <option value="$PROJECT_DIR$/data-structure-and-algorithm/src/test/java/com/westboy/AppTest.java" />
+        <option value="$PROJECT_DIR$/data-structure-and-algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/data-structure-and-algorithm/src/main/java/com/westboy/linkedlist/Node.java" />
+        <option value="$PROJECT_DIR$/data-structure-and-algorithm/src/main/java/com/westboy/linkedlist/Test01.java" />
       </list>
     </option>
   </component>
@@ -193,11 +220,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="29" />
-    <option name="y" value="52" />
-    <option name="width" value="1887" />
-    <option name="height" value="1237" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="855" />
+    <option name="y" value="72" />
+    <option name="width" value="1855" />
+    <option name="height" value="1197" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -205,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,7 +260,25 @@
             <path>
               <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="shengsiyuan-jvm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="shengsiyuan-jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="shengsiyuan-jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="shengsiyuan-jvm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -242,7 +286,7 @@
             <path>
               <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="shengsiyuan-jvm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -251,27 +295,15 @@
             <path>
               <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="westboy" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="shengsiyuan-jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shengsiyuan-jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +333,7 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
@@ -309,14 +341,41 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="Observable" type="1a9f42e2:ClassTreeNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="DriverManager" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.47" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.47" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-5.1.47.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.47" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-5.1.47.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: mysql:mysql-connector-java:5.1.47" type="70bed36:NamedLibraryElementNode" />
+              <item name="mysql-connector-java-5.1.47.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,46 +407,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.westboy.observer.practice.example01.Main" />
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.westboy.observer.practice.example01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.westboy.observer.practice.example02.Main" />
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.westboy.observer.practice.example02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.westboy.observer.theoretics.Main" />
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.westboy.observer.theoretics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyTest27">
     <configuration name="MyTest25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.westboy.MyTest25" />
       <module name="shengsiyuan-jvm" />
@@ -414,11 +434,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.westboy.MyTest27" />
+      <module name="shengsiyuan-jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.westboy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.westboy.linkedlist.Test01" />
+      <module name="data-structure-and-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.westboy.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-and-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.westboy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.westboy" />
+      <option name="MAIN_CLASS_NAME" value="com.westboy.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyTest25" />
+      <item itemvalue="Application.MyTest26" />
+      <item itemvalue="Application.MyTest27" />
+      <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+      <item itemvalue="Application.Test01" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MyTest27" />
+        <item itemvalue="Application.Test01" />
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
         <item itemvalue="Application.MyTest26" />
         <item itemvalue="Application.MyTest25" />
       </list>
@@ -441,34 +510,44 @@
       <workItem from="1563973972466" duration="5653000" />
       <workItem from="1564206144067" duration="7928000" />
       <workItem from="1564410410125" duration="1938000" />
-      <workItem from="1564498534835" duration="1087000" />
+      <workItem from="1564498534835" duration="1917000" />
+      <workItem from="1564759077666" duration="6856000" />
+      <workItem from="1565020480468" duration="658000" />
+      <workItem from="1565096051060" duration="3640000" />
+      <workItem from="1565180908512" duration="8911000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.07 at 20h 40m 17s.xml">
+      <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28089000" />
+    <option name="totallyTimeSpent" value="48984000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="855" y="72" width="1855" height="1197" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15341812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21337047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Alibaba Cloud Explorer" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32814527" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30869" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32737535" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28504235" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39981186" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29953197" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29918405" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32993197" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32938388" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -482,255 +561,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structure-and-algorithm/src/main/java/com/westboy/linkedlist/Test01.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/net/URLStreamHandlerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="187" column="60" selection-start-line="187" selection-start-column="60" selection-end-line="187" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10098">
-          <caret line="610" column="18" selection-start-line="610" selection-start-column="18" selection-end-line="610" selection-end-column="18" />
-          <folding>
-            <element signature="e#21372#21373#0" expanded="true" />
-            <element signature="e#21440#21441#0" expanded="true" />
-            <element signature="e#24044#24045#0" expanded="true" />
-            <element signature="e#24124#24125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest16.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38250">
-          <caret line="2208" column="40" selection-start-line="2208" selection-start-column="40" selection-end-line="2208" selection-end-column="40" />
-          <folding>
-            <element signature="e#83683#83684#0" expanded="true" />
-            <element signature="e#83719#83720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest24.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="348" column="33" selection-start-line="348" selection-start-column="33" selection-end-line="348" selection-end-column="33" />
-          <folding>
-            <element signature="e#15020#15021#0" expanded="true" />
-            <element signature="e#15084#15085#0" expanded="true" />
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/META-INF/services/java.sql.Driver">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest25.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest26.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="263" column="20" selection-start-line="263" selection-start-column="20" selection-end-line="263" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest27.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/sql/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/NonRegisteringDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/fabric/jdbc/FabricMySQLDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/misc/Launcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="663" column="34" selection-start-line="663" selection-start-column="31" selection-end-line="663" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyCat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/ContreteSubject.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="270" column="29" selection-start-line="270" selection-start-column="29" selection-end-line="270" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/theoretics/ConcreteObserver2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/practice/example01/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/practice/example01/ExportCompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/practice/example01/ImportCompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/practice/example01/RMBRate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/practice/example01/Rate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/practice/example01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -756,13 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -839,6 +675,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/theoretics/ConcreteSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/theoretics/ConcreteObserver1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -863,20 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/theoretics/ConcreteSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-pattern/src/main/java/com/westboy/observer/practice/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -884,6 +713,272 @@
             <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="31" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7542">
+          <caret line="463" column="9" selection-start-line="463" selection-start-column="9" selection-end-line="463" selection-end-column="9" />
+          <folding>
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="225" column="44" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/LineNumberInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="1365" column="22" selection-start-line="1365" selection-start-column="22" selection-end-line="1365" selection-end-column="22" />
+          <folding>
+            <element signature="e#83683#83684#0" expanded="true" />
+            <element signature="e#83719#83720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ServiceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="357" column="13" selection-start-line="357" selection-start-column="13" selection-end-line="357" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MySample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/MyTest27.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/target/classes/com/westboy/Cat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/sql/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest26.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/reflect/Reflection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure-and-algorithm/src/main/java/com/westboy/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure-and-algorithm/src/test/java/com/westboy/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-pattern/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure-and-algorithm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure-and-algorithm/target/classes/com/westboy/linkedlist/Node.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <folding>
+            <element signature="e#0#2194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure-and-algorithm/src/main/java/com/westboy/linkedlist/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure-and-algorithm/src/main/java/com/westboy/linkedlist/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="115" column="5" lean-forward="true" selection-start-line="67" selection-end-line="115" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="263" column="17" lean-forward="true" selection-start-line="263" selection-start-column="17" selection-end-line="263" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="613" column="17" selection-start-line="613" selection-start-column="17" selection-end-line="613" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/security/PrivilegedAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/fabric/jdbc/FabricMySQLDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="62" column="12" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/META-INF/services/java.sql.Driver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengsiyuan-jvm/src/main/java/com/westboy/MyTest27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="659" column="23" lean-forward="true" selection-start-line="659" selection-start-column="23" selection-end-line="659" selection-end-column="23" />
         </state>
       </provider>
     </entry>

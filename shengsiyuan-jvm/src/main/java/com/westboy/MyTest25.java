@@ -1,7 +1,5 @@
 package com.westboy;
 
-import java.util.concurrent.TimeUnit;
-
 public class MyTest25 implements Runnable{
 
     private Thread thread;
@@ -21,6 +19,5 @@ public class MyTest25 implements Runnable{
 
     public static void main(String[] args) throws InterruptedException {
         new MyTest25();
-        // TimeUnit.MINUTES.sleep(1);
     }
 }
