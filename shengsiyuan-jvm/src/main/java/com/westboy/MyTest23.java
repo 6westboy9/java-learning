@@ -1,6 +1,8 @@
 package com.westboy;
 
 import sun.misc.Launcher;
+import sun.reflect.Reflection;
+
 
 public class MyTest23 {
     public static void main(String[] args) {
@@ -19,6 +21,11 @@ public class MyTest23 {
 
         System.out.println(MyTest23.class.getClassLoader());
         System.out.println(MyTest16.class.getClassLoader());
+        System.out.println(ClassLoader.getSystemClassLoader());
+
+        Class clazz = MyTest23.class;
+        System.out.println(clazz.getClassLoader());
+        System.out.println(Thread.currentThread().getContextClassLoader());
         System.out.println(ClassLoader.getSystemClassLoader());
     }
 

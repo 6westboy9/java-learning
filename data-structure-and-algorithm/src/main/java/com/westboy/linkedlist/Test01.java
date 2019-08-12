@@ -1,29 +1,83 @@
 package com.westboy.linkedlist;
 
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author pengbo.wang
  * @date 2019/8/7
  * @since 1.0
  */
 public class Test01 {
+
+    /**
+     * 保存足迹信息
+     */
+    private static Map<Node, Integer> nodeMap = new HashMap<>();
+
+
     public static void main(String[] args) {
-        Node<Integer> node1 = new Node<>(3);
-        Node<Integer> node2 = new Node<>(1);
-        Node<Integer> node3 = new Node<>(2);
-        Node<Integer> node4 = new Node<>(4);
+        Node<Integer> node11 = new Node<>(1);
+        Node<Integer> node12 = new Node<>(2);
+        Node<Integer> node13 = new Node<>(5);
+        Node<Integer> node14 = new Node<>(6);
 
-        node1.setNext(node2);
-        node2.setNext(node3);
-        node3.setNext(node4);
-        node4.setNext(node1);
+        // node11.setNext(node12);
+        // node12.setNext(node13);
+        // node13.setNext(node14);
 
+        Node<Integer> node21 = new Node<>(3);
+        Node<Integer> node22 = new Node<>(4);
+        Node<Integer> node23 = new Node<>(6);
+        Node<Integer> node24 = new Node<>(8);
+
+        // node21.setNext(node22);
+        // node22.setNext(node23);
+        // node23.setNext(node24);
+
+        Node node = merge(node11, node21);
+        print(node);
+
+        // node4.setNext(node1);
         // print(node1);
         // node1 = reverseV1(node1);
+        // node1 = reverseV2(node1);
         // print(node1);
+        // System.out.println(hasLoopV1(node11));
 
-        System.out.println(hasCycle(node1));
+    }
 
+    private static <T> Node<T> merge(Node<T> node11, Node<T> node21) {
+        // 新建哨兵结点
+        Node<T> head = new Node<>();
+        // 临时结点
+        Node<T> temp = head;
+        while (node11 != null && node21 != null) {
+            if (node11.compareTo(node21) <= 0) {
+                temp.setNext(node11);
+                temp = temp.getNext();
+                node11 = node11.getNext();
+            } else {
+                temp.setNext(node21);
+                temp = temp.getNext();
+                node21 = node21.getNext();
+            }
+        }
+
+        if (node11 != null) {
+            temp.setNext(node11);
+        }
+
+        if (node21 != null) {
+            temp.setNext(node21);
+        }
+
+        temp = head;
+        head = head.getNext();
+        // 刪除哨兵结点
+        temp = null;
+        return head;
     }
 
     /**
@@ -45,24 +99,48 @@ public class Test01 {
      * <p>
      * 思路：重新分配一个单链表用于存储反转后的单链表。
      *
-     * @param node 单链表头结点
+     * @param head 单链表头结点
      * @param <T>  单链表结点数据类型
      * @return 反转后的单链表头结点
      */
-    private static <T> Node<T> reverseV1(Node<T> node) {
+    private static <T> Node<T> reverseV1(Node<T> head) {
         // 用于存储新的反转后的单链表
         Node<T> tNode = null;
         // 临时结点，用于存储遍历过程中的单个结点
         Node<T> mNode;
-        while (node != null) {
-            mNode = new Node<>(node.getData());
+        while (head != null) {
+            mNode = new Node<>(head.getData());
             if (tNode != null) {
                 mNode.setNext(tNode);
             }
             tNode = mNode;
-            node = node.getNext();
+            head = head.getNext();
         }
         return tNode;
+    }
+
+    /**
+     * 原地单链表反转
+     *
+     * @param head 单链表头结点
+     * @param <T>  单链表结点数据类型
+     * @return 反转后的单链表头结点
+     */
+    private static <T> Node<T> reverseV2(Node<T> head) {
+        if (head == null || head.getNext() == null) {
+            return head;
+        }
+
+        Node<T> preNode = null;
+        Node<T> nextNode = null;
+        while (head != null) {
+            nextNode = head.getNext();
+
+            head.setNext(preNode);
+            preNode = head;
+            head = nextNode;
+        }
+        return preNode;
     }
 
     /**
@@ -78,7 +156,7 @@ public class Test01 {
      * @param <T>  链表结点数据类型
      * @return 是否为循环链表
      */
-    private static <T> boolean hasCycle(Node<T> node) {
+    private static <T> boolean hasLoopV1(Node<T> node) {
         if (node == null) {
             return false;
         }
