@@ -28,3 +28,10 @@
 hs_err_pid*
 
 /.idea/workspace.xml
+/data/
+.DS_Store
+javafx-learning/src/test/
+shengsiyuan-jvm/.DS_Store
+shengsiyuan-netty/src/
+temp/.DS_Store
+temp/src/test/
