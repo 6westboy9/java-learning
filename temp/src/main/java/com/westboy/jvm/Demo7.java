@@ -1,27 +1,15 @@
 package com.westboy.jvm;
 
-/**
- * @author westboy
- * @since 2019/11/24
- */
 public class Demo7 {
+	public static void main(String[] args) {
+		byte[] array1 = new byte[4 * 1024 * 1024];
+		array1 = null;
 
-	public static void main(String[] args) throws InterruptedException {
+		byte[] array2 = new byte[2 * 1024 * 1024];
+		byte[] array3 = new byte[2 * 1024 * 1024];
+		byte[] array4 = new byte[2 * 1024 * 1024];
+		byte[] array5 = new byte[128 * 1024];
 
-		Thread.sleep(30000);
-
-		while (true) {
-			loadData();
-		}
-	}
-
-
-	private static void loadData() throws InterruptedException {
-		byte[] data = null;
-		for (int i = 0; i < 50; i++) {
-			data = new byte[100 * 1024];
-		}
-		data = null;
-		Thread.sleep(1000);
+		byte[] array6 = new byte[2 * 1024 * 1024];
 	}
 }

@@ -18,7 +18,7 @@ public class Main {
         bell.addPersonListener(new StudentEventListener());
         // 打上课铃声
         bell.ring(true);
-        System.out.println("------------");
+        System.out.println("----------------");
         // 打下课铃声
         bell.ring(false);
     }

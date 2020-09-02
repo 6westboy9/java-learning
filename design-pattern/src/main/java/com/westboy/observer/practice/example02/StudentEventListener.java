@@ -8,6 +8,7 @@ package com.westboy.observer.practice.example02;
  * @since 1.0
  */
 public class StudentEventListener implements BellEventListener {
+    @Override
     public void heardBell(RingEvent e) {
         if (e.isSound()) {
             System.out.println("同学们，上课了...");

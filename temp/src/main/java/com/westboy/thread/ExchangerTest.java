@@ -14,7 +14,7 @@ public class ExchangerTest {
 
 
 	private static final Exchanger<String> exchanger = new Exchanger<>();
-	private static ExecutorService executor = Executors.newFixedThreadPool(3);
+	private static final ExecutorService executor = Executors.newFixedThreadPool(3);
 
 	public static void main(String[] args) {
 		executor.execute(() -> {
