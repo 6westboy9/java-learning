@@ -13,14 +13,14 @@ import java.util.List;
  */
 public class BellEventSource {
 
-    private List<BellEventListener> listener = new ArrayList<>();
+    private final List<BellEventListener> listener = new ArrayList<>();
 
     public void addPersonListener(BellEventListener ren) {
         listener.add(ren);
     }
 
     public void ring(boolean sound) {
-        System.out.println(sound ? "上课铃" : "下课铃" + "响！");
+        System.out.println((sound ? "上课铃" : "下课铃") + "响！");
         // 通知注册在该事件源上的所有监听器
         notifies(new RingEvent(sound));
     }

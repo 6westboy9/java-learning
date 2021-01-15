@@ -16,6 +16,7 @@ public class Main {
         rate.add(importCompany);
         rate.add(exportCompany);
         rate.change(10);
+        System.out.println();
         rate.change(-9);
     }
 }

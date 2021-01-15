@@ -11,7 +11,6 @@ public class ConcreteSubject extends Subject {
     @Override
     protected void notifyObservers() {
         System.out.println("具体目标发生改变...");
-        System.out.println("-----------------");
         observers.forEach(Observer::response);
     }
 }

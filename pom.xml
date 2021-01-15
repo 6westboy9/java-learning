@@ -14,6 +14,8 @@
         <module>temp</module>
         <module>shengsiyuan-netty</module>
         <module>javafx-learning</module>
+        <module>demo-concurrent</module>
+        <module>demo-javase</module>
     </modules>
 
     <name>java-learning</name>

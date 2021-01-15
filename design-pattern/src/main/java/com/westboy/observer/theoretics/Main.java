@@ -16,5 +16,8 @@ public class Main {
         subject.attach(obs1);
         subject.attach(obs2);
         subject.notifyObservers();
+        System.out.println("-----------------");
+        subject.detach(obs1);
+        subject.notifyObservers();
     }
 }

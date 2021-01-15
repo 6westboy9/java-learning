@@ -1,6 +1,7 @@
 package com.westboy.date;
 
 import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.core.date.DateField;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.map.MapUtil;
@@ -44,13 +45,19 @@ public class Demo {
         // System.out.println(date);
         // System.out.println(DateUtil.parseLocalDateTime(date));
 
-        JSONConfig jsonConfig = new JSONConfig();
-        jsonConfig.setDateFormat("yyyy-MM-dd hh:mm:ss");
-        JSONObject jsonObject=  JSONUtil.createObj(jsonConfig);
-        jsonObject.putAll(BeanUtil.beanToMap(new DateDemo()));
+        // JSONConfig jsonConfig = new JSONConfig();
+        // jsonConfig.setDateFormat("yyyy-MM-dd hh:mm:ss");
+        // JSONObject jsonObject=  JSONUtil.createObj(jsonConfig);
+        // jsonObject.putAll(BeanUtil.beanToMap(new DateDemo()));
+        //
+        // System.out.println(jsonObject.toString());
+        // System.out.println(JSONUtil.toJsonStr(new DateDemo()));
 
-        System.out.println(jsonObject.toString());
-        System.out.println(JSONUtil.toJsonStr(new DateDemo()));
+
+        DateTime now1 = DateUtil.date();
+        System.out.println(now1);
+        DateTime now2 = DateUtil.offset(now1, DateField.MINUTE, -1);
+        System.out.println(now2);
 
     }
 

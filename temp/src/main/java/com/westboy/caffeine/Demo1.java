@@ -2,6 +2,7 @@ package com.westboy.caffeine;
 
 import cn.hutool.core.collection.CollUtil;
 import com.github.benmanes.caffeine.cache.*;
+import com.github.benmanes.caffeine.cache.stats.CacheStats;
 
 import java.util.Map;
 import java.util.concurrent.*;
@@ -14,11 +15,8 @@ public class Demo1 {
     public static void main(String[] args) {
         String key = "name";
         // manualCache(key);
-        // loadingCache(key);
-        asyncCache(key);
-
-
-
+        loadingCache(key);
+        // asyncCache(key);
     }
 
     private static void manualCache(String key) {
@@ -50,12 +48,15 @@ public class Demo1 {
 
     }
 
-
     private static void loadingCache(String key) {
         LoadingCache<String, String> cache = Caffeine.newBuilder()
-                .maximumSize(100)                           // 最大长度
+                .maximumSize(100)                            // 最大长度
                 .expireAfterWrite(1, TimeUnit.DAYS) // 设置缓存策略在 1 天未写入过期缓存
-            .build(Demo1::createCache);                     // 默认的数据加载实现，当调用 get 方法取值时，如果 key 没有对应的值，就调用这个方法进行加载
+                .removalListener((String k, String v, RemovalCause cause) -> {
+                    System.out.printf("Key %s was removed (%s), value is %s%n", k, cause, v);
+                })
+                .recordStats()
+            .build(Demo1::createCache);                      // 默认的数据加载实现，当调用 get 方法取值时，如果 key 没有对应的值，就调用这个方法进行加载
 
         // 根据 key 查询缓存，如果没有返回 null
         String value1 = cache.get(key);
@@ -76,6 +77,9 @@ public class Demo1 {
         cache.invalidate(key);
         Map<String, String> map = cache.getAll(CollUtil.newArrayList(key));
         System.out.println("map:" + map);
+
+        CacheStats cacheStats = cache.stats();
+        System.out.println("cacheStats: " + cacheStats);
     }
 
     private static void asyncCache(String key) {
