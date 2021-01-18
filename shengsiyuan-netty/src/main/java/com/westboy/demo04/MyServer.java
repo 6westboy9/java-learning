@@ -1,19 +1,21 @@
-package com.westboy.example02;
+package com.westboy.demo04;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.logging.LogLevel;
+import io.netty.handler.logging.LoggingHandler;
 
 import java.net.InetSocketAddress;
 
 /**
  * @author pengbo
- * @since 2021/1/12
+ * @since 2021/1/18
  */
 public class MyServer {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 
@@ -21,20 +23,16 @@ public class MyServer {
         serverBootstrap.group(bossGroup, workerGroup)
                 .localAddress(new InetSocketAddress(8888))
                 .channel(NioServerSocketChannel.class)
+                // 添加日志处理器
+                .handler(new LoggingHandler(LogLevel.INFO))
                 .childHandler(new MyServerInitializer());
 
         try {
             ChannelFuture channelFuture = serverBootstrap.bind().sync();
             channelFuture.channel().closeFuture().sync();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
         } finally {
-            try {
-                bossGroup.shutdownGracefully().sync();
-                workerGroup.shutdownGracefully().sync();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            bossGroup.shutdownGracefully().sync();
+            workerGroup.shutdownGracefully().sync();
         }
     }
 }
