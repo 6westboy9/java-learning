@@ -1,6 +1,7 @@
 package com.westboy.tmp;
 
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.date.DateUnit;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.NumberUtil;
 import cn.hutool.core.util.StrUtil;
@@ -62,8 +63,12 @@ public class Demo4 {
         // demo4.test(person);
         // System.out.println(person);
 
-        String order = null;
-        System.out.println("111111111");
+        // String order = null;
+        // System.out.println("111111111");
+
+
+        long overdueDays = DateUtil.between(DateUtil.date(1610899200000L), DateUtil.date(new Date()), DateUnit.DAY);
+        System.out.println(overdueDays);
     }
     class Person {
         private String name;

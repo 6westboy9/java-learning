@@ -14,8 +14,9 @@
         <module>temp</module>
         <module>shengsiyuan-netty</module>
         <module>javafx-learning</module>
-        <module>demo-concurrent</module>
-        <module>demo-javase</module>
+        <module>shishan-concurrent</module>
+        <module>shishan-javase</module>
+        <module>shishan-jvm</module>
     </modules>
 
     <name>java-learning</name>
@@ -43,6 +44,26 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>5.4.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.openjdk.jol</groupId>
+                <artifactId>jol-core</artifactId>
+                <version>0.10</version>
+            </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>4.1.25.Final</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>5.1.47</version>
+            </dependency>
+            <dependency>
+                <groupId>cglib</groupId>
+                <artifactId>cglib</artifactId>
+                <version>3.2.5</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
