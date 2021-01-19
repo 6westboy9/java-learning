@@ -3,7 +3,7 @@
 # Compiled class file
 
 # Log file
-*.log
+#*.log
 
 # BlueJ files
 *.ctxt
