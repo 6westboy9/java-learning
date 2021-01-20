@@ -2,7 +2,7 @@ package com.westboy;
 
 import org.openjdk.jol.info.ClassLayout;
 
-public class MemoryLayout {
+public class MemoryLayoutDemo {
 
     public static void main(String[] args) {
         Object object = new Object();

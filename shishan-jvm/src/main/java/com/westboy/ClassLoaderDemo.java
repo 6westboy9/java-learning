@@ -4,7 +4,7 @@ package com.westboy;
  * @author pengbo
  * @since 2020/12/21
  */
-public class Test01 {
+public class ClassLoaderDemo {
     public static void main(String[] args) {
         print("sun.boot.class.path", "启动类加载器");
         print("java.ext.dirs", "扩展类加载器");
