@@ -1,9 +1,7 @@
-package com.westboy.demo03;
+package com.westboy.demo03_chat;
 
-import com.westboy.demo02.MyClientInitializer;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
-import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
@@ -16,7 +14,7 @@ import java.io.InputStreamReader;
  * @author pengbo
  * @since 2021/1/15
  */
-public class MyChatClient {
+public class Demo03MyChatClient {
     public static void main(String[] args) {
         EventLoopGroup eventLoopGroup = new NioEventLoopGroup();
 
@@ -25,7 +23,7 @@ public class MyChatClient {
         bootstrap.group(eventLoopGroup)
                 // 不同于服务端的 NioServerSocketChannel
                 .channel(NioSocketChannel.class)
-                .handler(new MyChatClientInitializer());
+                .handler(new Demo03MyChatClientInitializer());
 
         try {
             Channel channel = bootstrap.connect("localhost", 8888).sync().channel();

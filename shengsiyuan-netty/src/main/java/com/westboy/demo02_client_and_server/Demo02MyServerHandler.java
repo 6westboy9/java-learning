@@ -1,4 +1,4 @@
-package com.westboy.demo02;
+package com.westboy.demo02_client_and_server;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -11,7 +11,7 @@ import java.util.UUID;
  * @author pengbo
  * @since 2021/1/12
  */
-public class MyServerHandler extends SimpleChannelInboundHandler<String> {
+public class Demo02MyServerHandler extends SimpleChannelInboundHandler<String> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
         System.out.println("server out: " + ctx.channel().remoteAddress() + ", " + msg);

@@ -1,4 +1,4 @@
-package com.westboy.demo05;
+package com.westboy.demo05_websocket;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
  * @author pengbo
  * @since 2021/1/18
  */
-public class TextWebsocketFrameHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {
+public class Demo05TextWebsocketFrameHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, TextWebSocketFrame msg) throws Exception {
         System.out.println("收到消息: " + msg.text());

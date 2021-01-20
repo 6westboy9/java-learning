@@ -1,4 +1,4 @@
-package com.westboy.demo01;
+package com.westboy.demo01_http;
 
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.json.JSONObject;
@@ -15,7 +15,7 @@ import java.net.URI;
  * @author pengbo
  * @since 2021/1/12
  */
-public class TestHttpServerHandler extends SimpleChannelInboundHandler<HttpObject> {
+public class Demo01HttpServerHandler extends SimpleChannelInboundHandler<HttpObject> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, HttpObject msg) throws Exception {
         // System.out.println("msg:" + msg);

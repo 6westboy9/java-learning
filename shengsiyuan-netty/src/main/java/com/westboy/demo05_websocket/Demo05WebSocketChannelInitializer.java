@@ -1,4 +1,4 @@
-package com.westboy.demo05;
+package com.westboy.demo05_websocket;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -12,7 +12,7 @@ import io.netty.handler.stream.ChunkedWriteHandler;
  * @author pengbo
  * @since 2021/1/18
  */
-public class WebSocketChannelInitializer extends ChannelInitializer<SocketChannel> {
+public class Demo05WebSocketChannelInitializer extends ChannelInitializer<SocketChannel> {
     @Override
     protected void initChannel(SocketChannel ch) throws Exception {
         ChannelPipeline pipeline = ch.pipeline();
@@ -27,6 +27,6 @@ public class WebSocketChannelInitializer extends ChannelInitializer<SocketChanne
         // 以下是 WebSocket 请求处理器
 
         pipeline.addLast(new WebSocketServerProtocolHandler("/ws"));
-        pipeline.addLast(new TextWebsocketFrameHandler());
+        pipeline.addLast(new Demo05TextWebsocketFrameHandler());
     }
 }

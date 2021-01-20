@@ -27,13 +27,37 @@ public class Demo1 {
 		// map.remove(1);
 		// System.out.println(map.toString());
 
-		List<Integer> list = new ArrayList<>();
-		list.add(1);
-		list.add(1);
-		list.add(1);
-		list.add(1);
+		// List<Integer> list = new ArrayList<>();
+		// list.add(1);
+		// list.add(1);
+		// list.add(1);
+		// list.add(1);
+		//
+		// String res = CollUtil.join(list, ",");
+		// System.out.println(res);
 
-		String res = CollUtil.join(list, ",");
-		System.out.println(res);
+		long start = System.currentTimeMillis();
+		test();
+		System.out.println(System.currentTimeMillis() - start);
+
+
+	}
+
+	private static void test() {
+		long threshold = 10;
+		while (threshold > 0) {
+			// 等待预授权以不同通知对于长租买断订单的处理成功
+			// if (buyoutOrder.getAuthStatus() == AlipayFundAuthStatus.FREEZE_MANUAL_ASYNC_SUCCESS) {
+			// 	break;
+			// }
+
+			try {
+				Thread.sleep(1000);
+				threshold--;
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+				return;
+			}
+		}
 	}
 }

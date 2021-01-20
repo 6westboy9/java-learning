@@ -1,4 +1,4 @@
-package com.westboy.demo01;
+package com.westboy.demo02_client_and_server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -12,16 +12,16 @@ import java.net.InetSocketAddress;
  * @author pengbo
  * @since 2021/1/12
  */
-public class TestServer {
+public class Demo02MyServer {
     public static void main(String[] args) {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 
         ServerBootstrap serverBootstrap = new ServerBootstrap();
         serverBootstrap.group(bossGroup, workerGroup)
-                .localAddress(new InetSocketAddress(8899))
+                .localAddress(new InetSocketAddress(8888))
                 .channel(NioServerSocketChannel.class)
-                .childHandler(new TestServerInitializer());
+                .childHandler(new Demo02MyServerInitializer());
 
         try {
             ChannelFuture channelFuture = serverBootstrap.bind().sync();

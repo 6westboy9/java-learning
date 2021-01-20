@@ -1,4 +1,4 @@
-package com.westboy.demo03;
+package com.westboy.demo03_chat;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
@@ -13,7 +13,7 @@ import java.net.SocketAddress;
  * @author pengbo
  * @since 2021/1/15
  */
-public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
+public class Demo03MyChatServerHandler extends SimpleChannelInboundHandler<String> {
 
     private static final ChannelGroup channelGroup = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
 
