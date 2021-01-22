@@ -1,10 +1,10 @@
 syntax = "proto2";
 
-package com.westboy.demo06_protobuf_introduction;
+package com.westboy.demo07_protobuf_in_netty;
 
 option optimize_for = SPEED;
 
-option java_package = "com.westboy.demo06_protobuf_introduction"; // 实用 Java 语言时，package 和 option 同时存在时，以 java_package 为准
+option java_package = "com.westboy.demo07_protobuf_in_netty"; // 实用 Java 语言时，package 和 option 同时存在时，以 java_package 为准
 option java_outer_classname = "MyDataInfo";
 
 message MyMessage {

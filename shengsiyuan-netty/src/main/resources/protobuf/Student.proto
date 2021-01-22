@@ -11,3 +11,6 @@ message Student {
     optional int32 age = 2;
     optional string address = 3;
 }
+
+// 编译当前目录：java-learning
+// protoc --java_out=shengsiyuan-netty/src/main/java ./shengsiyuan-netty/src/main/resources/protobuf/Student.proto
