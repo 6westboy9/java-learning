@@ -1,14 +1,14 @@
 Java HotSpot(TM) 64-Bit Server VM (25.211-b12) for bsd-amd64 JRE (1.8.0_211-b12), built on Apr  1 2019 20:53:18 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
-Memory: 4k page, physical 16777216k(601800k free)
+Memory: 4k page, physical 16777216k(336724k free)
 
 /proc/meminfo:
 
 CommandLine flags: -XX:InitialHeapSize=10485760 -XX:MaxHeapSize=10485760 -XX:MaxNewSize=5242880 -XX:NewSize=5242880 -XX:OldPLABSize=16 -XX:PretenureSizeThreshold=10485760 -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:SurvivorRatio=8 -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
-0.073: [GC (Allocation Failure) 0.073: [ParNew: 3579K->305K(4608K), 0.0005590 secs] 3579K->305K(9728K), 0.0006504 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+0.074: [GC (Allocation Failure) 0.074: [ParNew: 3579K->317K(4608K), 0.0005171 secs] 3579K->317K(9728K), 0.0005965 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
 Heap
- par new generation   total 4608K, used 2395K [0x00000007bf600000, 0x00000007bfb00000, 0x00000007bfb00000)
+ par new generation   total 4608K, used 2407K [0x00000007bf600000, 0x00000007bfb00000, 0x00000007bfb00000)
   eden space 4096K,  51% used [0x00000007bf600000, 0x00000007bf80a558, 0x00000007bfa00000)
-  from space 512K,  59% used [0x00000007bfa80000, 0x00000007bfacc790, 0x00000007bfb00000)
+  from space 512K,  62% used [0x00000007bfa80000, 0x00000007bfacf7a0, 0x00000007bfb00000)
   to   space 512K,   0% used [0x00000007bfa00000, 0x00000007bfa00000, 0x00000007bfa80000)
  concurrent mark-sweep generation total 5120K, used 0K [0x00000007bfb00000, 0x00000007c0000000, 0x00000007c0000000)
  Metaspace       used 2515K, capacity 4486K, committed 4864K, reserved 1056768K
