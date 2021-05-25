@@ -46,7 +46,7 @@ public class ReentrantReadWriteLockDemo {
 
         // readLock.unlock();
 
-        // writeLock.lock();
-        // writeLock.unlock();
+        writeLock.lock();
+        writeLock.unlock();
     }
 }

@@ -12,15 +12,19 @@ import java.util.concurrent.Executors;
 public class CopyOnWriteArrayListDemo {
     public static void main(String[] args) {
         CopyOnWriteArrayList<String> list = new CopyOnWriteArrayList<>();
+
+        // list.get(1);
+
         CountDownLatch latch = new CountDownLatch(1);
 
-        ExecutorService executorService = Executors.newFixedThreadPool(1);
+        ExecutorService executorService = Executors.newFixedThreadPool(3);
         executorService.submit(() -> {
             try {
                 latch.await();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
             for (int i = 0; i < 10; i++) {
                 System.out.println(list);
                 try {

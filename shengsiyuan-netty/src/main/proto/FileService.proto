@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package com.westboy.demo09_grpc;
+
+option java_package = "com.westboy.demo09_grpc.generated";
+option java_outer_classname = "FileServer";
+option java_multiple_files = true;
+
+service FileService {
+  rpc Upload (Request) returns (Response) {}
+}
+
+message Request{
+  // 定义文件为字节类型
+  bytes file = 1;
+  string name = 2;
+}
+
+message Response{
+  int32 code = 1;
+  string msg = 2;
+}

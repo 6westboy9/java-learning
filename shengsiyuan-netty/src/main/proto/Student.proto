@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+package com.westboy.demo09_grpc;
+
+option java_package = "com.westboy.demo09_grpc.generated";
+option java_outer_classname = "StudentProto";
+option java_multiple_files = true;
+
+service StudentService {
+
+  rpc GetRealNameByUsername(MyRequest) returns (MyResponse) {}
+
+  // 错误示例：请求和响应必须是 message 类型
+  // rpc getStudentsByAge(int32) returns (stream StudentResponse) {}
+
+  // 流式响应（单向流）
+  rpc GetStudentsByAge(StudentRequest) returns (stream StudentResponse) {}
+
+  // 流式请求（单向流）
+  rpc GetStudentsWrapperByAges(stream StudentRequest) returns (StudentResponseList) {}
+
+  // 流式请求与响应（双向流）
+  rpc BiTalk(stream StreamRequest) returns (stream StreamResponse) {}
+
+}
+
+message MyRequest {
+  string username = 1;
+}
+
+message MyResponse {
+  string realname = 2;
+}
+
+message StudentRequest {
+  int32 age = 1;
+}
+
+message StudentResponse {
+  string name = 1;
+  int32 age = 2;
+  string city = 3;
+}
+
+message StudentResponseList {
+  repeated StudentResponse studentResponse = 1;
+}
+
+message StreamRequest {
+  string request_info = 1;
+}
+
+message StreamResponse {
+  string response_info = 1;
+}

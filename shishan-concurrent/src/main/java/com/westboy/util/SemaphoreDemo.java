@@ -8,10 +8,8 @@ import java.util.concurrent.Semaphore;
  */
 public class SemaphoreDemo {
     public static void main(String[] args) throws InterruptedException {
-
-        // demo1();
-
-        demo2();
+        demo1();
+        // demo2();
     }
 
     private static void demo1() {

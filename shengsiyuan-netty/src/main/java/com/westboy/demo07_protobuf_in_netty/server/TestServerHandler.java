@@ -1,6 +1,6 @@
 package com.westboy.demo07_protobuf_in_netty.server;
 
-import com.westboy.demo07_protobuf_in_netty.MyDataInfo;
+import com.westboy.demo07_protobuf_in_netty.MyMessageInfo;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
@@ -9,23 +9,23 @@ import io.netty.channel.SimpleChannelInboundHandler;
  * @date 2018-12-11
  * @since 1.0
  */
-public class TestServerHandler extends SimpleChannelInboundHandler<MyDataInfo.MyMessage>{
+public class TestServerHandler extends SimpleChannelInboundHandler<MyMessageInfo.MyMessage> {
 
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, MyDataInfo.MyMessage msg) {
-        MyDataInfo.MyMessage.DataType dateType = msg.getDataType();
+    protected void channelRead0(ChannelHandlerContext ctx, MyMessageInfo.MyMessage msg) {
+        MyMessageInfo.MyMessage.DataType dateType = msg.getDataType();
 
-        if(dateType == MyDataInfo.MyMessage.DataType.PersonType){
-            MyDataInfo.Person person = msg.getPerson();
+        if (dateType == MyMessageInfo.MyMessage.DataType.PersonType) {
+            MyMessageInfo.Person person = msg.getPerson();
             System.out.println(person.getName());
             System.out.println(person.getAge());
             System.out.println(person.getAddress());
-        }else if(dateType == MyDataInfo.MyMessage.DataType.DogType){
-            MyDataInfo.Dog dog = msg.getDog();
+        } else if (dateType == MyMessageInfo.MyMessage.DataType.DogType) {
+            MyMessageInfo.Dog dog = msg.getDog();
             System.out.println(dog.getName());
             System.out.println(dog.getAge());
-        }else{
-            MyDataInfo.Cat cat = msg.getCat();
+        } else {
+            MyMessageInfo.Cat cat = msg.getCat();
             System.out.println(cat.getName());
             System.out.println(cat.getCity());
         }

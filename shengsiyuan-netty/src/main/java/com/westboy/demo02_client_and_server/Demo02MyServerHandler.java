@@ -2,6 +2,7 @@ package com.westboy.demo02_client_and_server;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import io.netty.channel.socket.SocketChannel;
 
 import java.util.UUID;
 
@@ -14,8 +15,9 @@ import java.util.UUID;
 public class Demo02MyServerHandler extends SimpleChannelInboundHandler<String> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
-        System.out.println("server out: " + ctx.channel().remoteAddress() + ", " + msg);
-        ctx.channel().writeAndFlush("from server: " + UUID.randomUUID());
+        SocketChannel socketChannel = (SocketChannel) ctx.channel();
+        System.out.println("server out: " + socketChannel.remoteAddress() + ", " + msg);
+        socketChannel.writeAndFlush("from server: " + UUID.randomUUID());
     }
 
     @Override

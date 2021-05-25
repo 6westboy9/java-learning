@@ -24,7 +24,10 @@ public class Demo02MyServer {
                 .childHandler(new Demo02MyServerInitializer());
 
         try {
+            // 绑定服务器
             ChannelFuture channelFuture = serverBootstrap.bind().sync();
+            System.out.println("服务启动成功，监听端口：" + channelFuture.channel().localAddress());
+            // 等待通道关闭的异步任务结束
             channelFuture.channel().closeFuture().sync();
         } catch (InterruptedException e) {
             e.printStackTrace();
